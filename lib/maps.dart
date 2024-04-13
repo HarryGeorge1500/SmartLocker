@@ -199,8 +199,8 @@ class _MyMapState extends State<MyMap> {
         children: [
           FlutterMap(
             options: const MapOptions(
-              center: LatLng(11.986739, 75.380985),
-              zoom: 18.0,
+              initialCenter: LatLng(11.986739, 75.380985),
+              initialZoom: 18.0,
             ),
             mapController: mapController,
             children: [

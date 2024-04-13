@@ -63,6 +63,6 @@ flutter {
 dependencies {
     implementation 'io.flutter:flutter_embedding_debug:1.0.0-f40e976bedff57e69e1b3d89a7c2a3c617a03dad'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'com.google.android.material:material:1.12.0'
 }
 
